@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudoku Game</title>
+    <title>Joc Sudoku</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sudoku Game</h1>
-    <div id="sudoku-grid"></div>
+    <div class="container">
+        <h1>Sudoku</h1>
+        <div class="difficulty">
+            <button id="easy">Ușor</button>
+            <button id="medium">Mediu</button>
+            <button id="hard">Greu</button>
+        </div>
+        <div id="board"></div>
+        <button id="check">Verifică</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
